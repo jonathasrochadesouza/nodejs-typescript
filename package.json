@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jonathas Rocha <62067474+jonathasrochadesouza@users.noreply.github.com>",
+  "license": "MIT"
+  "devDependencies": {
+    "sucrase": "^3.28.0",
+    "typescript": "^4.8.4"
+  }
+}
