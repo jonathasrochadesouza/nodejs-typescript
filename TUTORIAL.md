@@ -12,3 +12,11 @@ mkdir src
 
 touch src/index.ts
 
+Após configurado o script no package.json
+yarn dev
+
+yarn add -D nodemon
+
+
+
+

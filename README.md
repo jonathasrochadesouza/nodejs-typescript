@@ -14,3 +14,6 @@ https://github.com/rocketseat-content/youtube-typescript-nodejs
 
 Typescript auxilia em um ambiente de desenvolvimento e não de produção
 
+Sucrase ajuda muito na performance evitando problemas de versão...
+
+
