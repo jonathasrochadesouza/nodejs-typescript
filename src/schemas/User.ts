@@ -1,4 +1,12 @@
-import { Schema, model } from 'mongoose';
+import { Schema, model, Document } from 'mongoose';
+
+interface UserInterface extends Document {
+    fistName ?: string
+    lastName ?: string
+    email ?: string
+
+    fullName(): string
+}
 
 const UserSchema = new Schema({
     firstName: String,
@@ -8,4 +16,8 @@ const UserSchema = new Schema({
     timestamps: true
 })
 
-export default model('User', UserSchema);
+UserSchema.methods.fullName = function(): string {
+    return `${this.firstName} ${this.lastName}`;
+}
+
+export default model<UserInterface>('User', UserSchema);
