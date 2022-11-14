@@ -32,5 +32,10 @@ yarn eslint --init
 deletar a pasta package-lock.json, e rodar o código abaixo, caso ele instale algo com o npm, isso fará ele atualizar o yarn ler esses novos pacotes, adicionados pelo npm
 yarn
 
+O Prettier faz alguns ajustes básicos para nós, ao salvar o código
+yarn add prettier eslint-config-prettier eslint-plugin-prettier
 
+yarn add express cors mongoose
 
+Instalar alguns pacotes como dependencia de desenvolvimento, para possibilitar tipar em modo de desenvolvimento, possibilitando a leitura por parte do typescript
+yarn add @types/express @types/cors @types/mongoose -D

@@ -16,4 +16,7 @@ Typescript auxilia em um ambiente de desenvolvimento e não de produção
 
 Sucrase ajuda muito na performance evitando problemas de versão...
 
+O ambiente de produção gerado no final será javascript
 
+comando para rodar:
+yarn dev
